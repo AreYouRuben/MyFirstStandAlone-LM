@@ -1,5 +1,6 @@
 import tensorflow as tf
 import tensorflow_datasets as tfds
+import matplotlib.pyplot as plt
 
 #print(len(tf.config.list_physical_devices('GPU')))
 
@@ -12,3 +13,5 @@ import tensorflow_datasets as tfds
 )
 print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 print(ds_info)
+
+fig = tfds.show_examples(ds_train, ds_info)
