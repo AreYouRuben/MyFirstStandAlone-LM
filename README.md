@@ -1,2 +1,3 @@
 # MyFirstStandAlone-LM
-First attempts to build a Machine Learning with different and famous datasets
+
+First attempts to build Machine Learning with different famous datasets
