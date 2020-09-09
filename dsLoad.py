@@ -25,4 +25,4 @@ dsnp = np.vstack(tfds.as_numpy(test))
 X_test = np.array(tuple(map(lambda x: x[0]['image'], dsnp)))
 y_test = np.array(tuple(map(lambda x: x[0]['label'], dsnp)))
 plt.imshow(X_test[1], cmap='gray')
-plt.show()g
+plt.show()
