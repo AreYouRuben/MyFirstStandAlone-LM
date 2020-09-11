@@ -2,8 +2,9 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 import matplotlib.pyplot as plt
 import numpy as np
-#put on VSC terminal to activate virtualenv after
-#Set-ExecutionPolicy Unrestricted -Scope Process
+#Put on VSC terminal to activate virtualenv after
+#   Set-ExecutionPolicy Unrestricted -Scope Process
+
 #print(len(tf.config.list_physical_devices('GPU')))
 
 ###### Shows a grid with different examples

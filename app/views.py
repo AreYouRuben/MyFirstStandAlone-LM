@@ -5,4 +5,4 @@ page = Blueprint('page', __name__)
 
 @page.route('/')
 def index():
-    return "Hello World!"
+    return render_template('index.html', title='Home')
